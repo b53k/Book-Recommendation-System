@@ -48,10 +48,10 @@ We randomly selected 10 user with their top 40 liked books (might increase the n
 
 Figure below shows the performance of the model when selecting other users who've read at least 35% of books for a given user. Here, the cut-off mean rating for recommended book is 4 i.e. only books that have mean rating of 4 or above is shown.
 
-![Figure1](https://github.com/b53k/Book-Recommendation-System/blob/main/figs/35%25%20result.png)
+![Figure1](https://github.com/b53k/Book-Recommendation-System/blob/main/figs/35result.png)
 
 For other users who've read at least 20% of books for a given user and the cut-off mean rating at 3.5 we can see slight improvement in performance.
 
-![Figure2](https://github.com/b53k/Book-Recommendation-System/blob/main/figs/20%25%20result.png) 
+![Figure2](https://github.com/b53k/Book-Recommendation-System/blob/main/figs/20result.png) 
 
 The apparent improvement in performance can be attributed to the fact that when selecting other users who have read at least 20% of the books and selecting books with average rating of 3.5 or above; the model explores more number of books and the probability of a book being in both testing dataset and recommended books is higher.
